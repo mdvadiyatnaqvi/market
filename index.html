@@ -13,20 +13,62 @@
     <!-- line icons link below -->
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
 
+    <!-- fonts links below -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+
     <!-- our written css below -->
     <link rel="stylesheet" href="./css/style.css">
+
+    <!-- navbar css below -->
+    <link rel="stylesheet" href="./css/navbar.css">
 
 </head>
 
 <body>
-    <!-- strip code starts here -->
+    <!-- strip  starts here -->
 
     <div class="strip">
-        <div class="left">logo_here</div>
-        <div class="right"><button class="btn btn-success">Buy Now</button></div>
+        <div class="left"><span style="font-weight: 700; font-size:20px">solarita</span>Market</div>
+        <div class="right"><button class="btn btn-success" id="strip-buy-btn">Buy Now</button></div>
     </div>
 
-    <!-- strip code ends here -->
+    <!-- strip  ends here -->
+
+    <!-- navbar starts here -->
+
+    <nav class="navbar navbar-expand-md navbar-dark" id="nav-bg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><span style="font-weight: 700;padding-left:40px">SOLOMUS</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Demos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Exclusive Deals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Open Store Free</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <button id="nav-purchase-btn" class="btn btn-outline-secondary" type="submit">Purchase
+                        ₹250</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- navbar ends here -->
 
     <!-- our written javascript below -->
     <script src="./js/script.js"></script>
