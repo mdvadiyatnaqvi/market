@@ -35,7 +35,7 @@ body {
     overflow: hidden;
     color: rgb(25, 135, 84);
     border-right: 3px solid rgb(25, 135, 84);
-    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 .name:hover::before {
