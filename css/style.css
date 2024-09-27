@@ -17,3 +17,31 @@ body {
     background-color: #262626;
     color: white;
 }
+
+/* hero section css starts here */
+
+.name {
+    font-size: 50px;
+    color: transparent !important;
+    -webkit-text-stroke: 1px rgb(25, 135, 84);
+    position: relative;
+}
+
+.name::before {
+    content: " Solomus Market";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    overflow: hidden;
+    color: rgb(25, 135, 84);
+    border-right: 3px solid rgb(25, 135, 84);
+    transition: 0.5s ease-in-out;
+}
+
+.name:hover::before {
+    width: 100%;
+    padding-left: 12px;
+    filter: drop-shadow(0 0 25px rgb(25, 135, 84); );
+}
+
+/* hero section css ends here */
