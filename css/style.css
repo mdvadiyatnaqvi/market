@@ -68,6 +68,25 @@ body {
     opacity: 0.9;
 }
 
+@media (max-width:550px) {
+    .section1 {
+        margin-top: 100px;
+    }
+
+    .csection1 {
+        padding-top: 100px;
+    }
+
+    .section1::before {
+        height: 50vh;
+    }
+
+    .section2 {
+        margin-top: 170px !important;
+    }
+}
+
+
 .csection1 {
     display: flex row;
     justify-content: center;
@@ -132,7 +151,7 @@ body {
 
 .section2 {
     margin-top: 450px;
-    border: 1px solid white;
+    border: 10px solid white;
 }
 
 /* section2 css ends here */
