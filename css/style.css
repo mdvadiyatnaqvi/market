@@ -41,7 +41,98 @@ body {
 .name:hover::before {
     width: 100%;
     padding-left: 12px;
-    filter: drop-shadow(0 0 25px rgb(25, 135, 84); );
+    filter: drop-shadow(0 0 25px rgb(25, 135, 84));
 }
 
 /* hero section css ends here */
+
+/* section1 css starts here */
+
+.section1 {
+    margin-top: 350px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 20px;
+}
+
+.section1::before {
+    content: "";
+    position: absolute;
+    background: url('../images/section1/online-shoppping-1.jpg') no-repeat center center/cover;
+    width: 90%;
+    height: 90vh;
+    z-index: -1;
+    border-radius: 20px;
+    border: 10px solid rgb(0, 0, 0);
+    margin-top: 100px !important;
+    opacity: 0.8;
+}
+
+.csection1 {
+    display: flex row;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: auto;
+    flex-wrap: wrap;
+    transition: all 0.5 ease-in-out;
+}
+
+.glamorous {
+    color: transparent !important;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    position: relative;
+}
+
+
+.glamorous::before {
+    content: "Glamorous";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    border-right: 3px solid rgb(0, 0, 0);
+    transition: 0.3s ease-in-out;
+}
+
+.glamorous:hover::before {
+    width: 100%;
+    padding-left: 9px;
+    filter: drop-shadow(0 0 25px rgb(0, 0, 0));
+}
+
+.glam {
+    color: transparent !important;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    position: relative;
+}
+
+
+.glam::before {
+    content: "Glam";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    border-right: 3px solid rgb(0, 0, 0);
+    transition: 0.3s ease-in-out;
+}
+
+.glam:hover::before {
+    width: 100%;
+    padding-left: 9px;
+    filter: drop-shadow(0 0 25px rgb(0, 0, 0));
+}
+
+/* section1 css ends here */
+
+/* section2 css starts here */
+
+.section2 {
+    margin-top: 450px;
+    border: 1px solid white;
+}
+
+/* section2 css ends here */
