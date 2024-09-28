@@ -87,7 +87,6 @@ body {
 
 .glamorous::before {
     content: "Glamorous";
-    font-size: 50px !important;
     position: absolute;
     width: 0%;
     height: 100%;
@@ -112,7 +111,6 @@ body {
 
 .glam::before {
     content: "Glam";
-    font-size: 50px !important;
     position: absolute;
     width: 0%;
     height: 100%;
