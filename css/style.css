@@ -84,6 +84,15 @@ body {
     .section2 {
         margin-top: 170px !important;
     }
+
+    /* section 3 css starts */
+
+    .section3-text1,
+    .section3-text2 {
+        font-size: 20px !important;
+    }
+
+    /* section 3 css ends */
 }
 
 
@@ -175,3 +184,15 @@ body {
 }
 
 /* section2 css ends here */
+
+/* section3 css starts here */
+
+.section3-text1 {
+    background-image: linear-gradient(43deg, #FFCC70 00%, #C840C0 46%, #4158D0 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 42px;
+    font-weight: 700 !important;
+}
+
+/* section3 css ends here */
