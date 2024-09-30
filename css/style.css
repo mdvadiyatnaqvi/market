@@ -170,7 +170,11 @@ body {
     border-radius: 50px;
     padding: 10px 32px;
     margin-bottom: 20px;
+}
 
+.section2:hover {
+    border: 1px solid black;
+    box-shadow: 40px 0 100px #008cff6b, -40px 0 100px #c840bf4f;
 }
 
 .child-section2 {
@@ -186,6 +190,15 @@ body {
 /* section2 css ends here */
 
 /* section3 css starts here */
+
+.section3-cards div {
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.section3-cards div:hover {
+    box-shadow: 40px 0 100px #008cff6b, -40px 0 100px #c840bf4f;
+}
 
 .section3-text1 {
     background-image: linear-gradient(43deg, #FFCC70 00%, #C840C0 46%, #4158D0 100%);
