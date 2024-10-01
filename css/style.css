@@ -209,3 +209,23 @@ body {
 }
 
 /* section3 css ends here */
+
+/* section4 css starts here */
+
+.nav-link {
+    border: 1px solid rgb(255, 255, 255, 0.5);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 50px !important;
+}
+
+.nav-link:hover {
+    background-color: rgba(164, 164, 164, 0.2);
+    box-shadow: 40px 0 100px #008cff6b, -40px 0 100px #c840bf4f;
+}
+
+.nav-item button:active {
+    background-color: rgba(164, 164, 164, 0.3) !important;
+}
+
+/* section4 css ends here */
