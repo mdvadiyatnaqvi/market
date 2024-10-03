@@ -172,10 +172,6 @@ body {
     margin-bottom: 20px;
 }
 
-.section2:hover {
-    border: 1px solid black;
-    box-shadow: 40px 0 100px #008cff6b, -40px 0 100px #c840bf4f;
-}
 
 .child-section2 {
     margin: 15px;
@@ -212,20 +208,35 @@ body {
 
 /* section4 css starts here */
 
-.nav-link {
+.s4-cati-item {
     border: 1px solid rgb(255, 255, 255, 0.5);
     margin-right: 10px;
     margin-bottom: 10px;
     border-radius: 50px !important;
 }
 
-.nav-link:hover {
+.s4-cati-item:hover {
     background-color: rgba(164, 164, 164, 0.2);
     box-shadow: 40px 0 100px #008cff6b, -40px 0 100px #c840bf4f;
 }
 
-.nav-item button:active {
-    background-color: rgba(164, 164, 164, 0.3) !important;
+.s4-btn.active {
+    background-color: rgba(164, 164, 164, 0.2) !important;
+    color: rgb(25, 135, 84) !important;
+}
+
+.s4-all-card {
+    border: 1px solid rgb(255, 255, 255, 0.4);
+    width: 400px;
+    border-radius: 10px;
+}
+
+.s4-all-card:hover {
+    box-shadow: 40px 0 100px #008cff39, -40px 0 100px #c840bf38;
+}
+
+.s4-image {
+    border-radius: 5px;
 }
 
 /* section4 css ends here */
