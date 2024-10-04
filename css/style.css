@@ -402,9 +402,9 @@ body {
 
 @media screen and (max-width: 800px) {
     .s7-all-card {
-        width: 350px !important;
-        max-width: 350px !important;
-        min-width: 350px !important;
+        width: 360px !important;
+        max-width: 360px !important;
+        min-width: 360px !important;
     }
 }
 
