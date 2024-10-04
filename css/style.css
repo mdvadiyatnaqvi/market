@@ -367,3 +367,52 @@ body {
 }
 
 /* section 6 ends here */
+
+/* section 7 starts here */
+
+.s7-all-card {
+    border: 1px solid rgb(255, 255, 255, 0.4);
+    border-radius: 10px;
+    width: 100%;
+    /* or any specific width */
+    height: 100%;
+    /* or any specific height */
+    overflow: hidden;
+    /* Ensures no overflow */
+    position: relative;
+    /* For positioning if needed */
+}
+
+.s7-all-card:hover {
+    box-shadow: 40px 0 100px #008cff39, -40px 0 100px #c840bf38;
+}
+
+.s7-all-card div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Makes the image cover the entire div */
+    display: block;
+    /* Removes extra space below the image */
+}
+
+.s7-image {
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 700px) {
+    .s7-all-card {
+        width: 350px !important;
+        max-width: 350px !important;
+        min-width: 350px !important;
+    }
+}
+
+.s7-span {
+    background-image: linear-gradient(43deg, #FFCC70 00%, #C840C0 46%, #4158D0 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+}
+
+/* section 7 ends here */
