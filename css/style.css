@@ -400,7 +400,7 @@ body {
     border-radius: 5px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .s7-all-card {
         width: 350px !important;
         max-width: 350px !important;
