@@ -181,6 +181,7 @@ body {
 
 .child-section2:hover {
     color: rgb(25, 135, 84);
+    transition: all 0.5s linear;
 }
 
 /* section2 css ends here */
@@ -498,3 +499,32 @@ body {
 }
 
 /* section 11 ends here */
+
+/* section 12 starts here */
+
+.section12 {
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 50px;
+    padding: 10px 32px;
+    margin-bottom: 20px;
+}
+
+
+.child-section12 {
+    margin: 15px;
+    width: 180px;
+    text-align: center;
+}
+
+.child-section12:hover {
+    color: rgb(25, 135, 84);
+    transition: all 0.5s linear;
+}
+
+/* section 12 ends here */
