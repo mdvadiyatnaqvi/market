@@ -249,10 +249,14 @@ body {
     justify-content: space-evenly;
 }
 
-.right {
+.s5-right {
     border: 1px solid rgb(255, 255, 255, 0.4);
     border-bottom: none;
     border-radius: 20px;
+}
+
+.s5-right:hover {
+    box-shadow: 40px 0 100px #008cff39, -40px 0 100px #c840bf38;
 }
 
 .s5-span {
@@ -426,6 +430,10 @@ body {
     /* Red background that fades to transparent */
     /* You can adjust the colors and height as needed */
     border-radius: 15px;
+}
+
+.s9-item:hover {
+    box-shadow: 40px 0 100px #008cff39, -40px 0 100px #c840bf38;
 }
 
 .s9-item i {
