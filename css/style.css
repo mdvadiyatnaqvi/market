@@ -218,6 +218,7 @@ body {
 .s4-cati-item:hover {
     background-color: rgba(164, 164, 164, 0.2);
     box-shadow: 40px 0 100px #008cff6b, -40px 0 100px #c840bf4f;
+    transition: all 0.5s linear;
 }
 
 .s4-btn.active {
@@ -233,6 +234,7 @@ body {
 
 .s4-all-card:hover {
     box-shadow: 40px 0 100px #008cff39, -40px 0 100px #c840bf38;
+    transition: all 0.5s linear;
 }
 
 .s4-image {
@@ -257,6 +259,7 @@ body {
 
 .s5-right:hover {
     box-shadow: 40px 0 100px #008cff39, -40px 0 100px #c840bf38;
+    transition: all 0.5s linear;
 }
 
 .s5-span {
@@ -389,6 +392,7 @@ body {
 
 .s7-all-card:hover {
     box-shadow: 40px 0 100px #008cff39, -40px 0 100px #c840bf38;
+    transition: all 0.5s linear;
 }
 
 .s7-all-card div img {
@@ -434,6 +438,7 @@ body {
 
 .s9-item:hover {
     box-shadow: 40px 0 100px #008cff39, -40px 0 100px #c840bf38;
+    transition: all 0.5s linear;
 }
 
 .s9-item i {
@@ -460,3 +465,36 @@ body {
 }
 
 /* section 10 ends here */
+
+/* section 11 starts here */
+
+.s11-sec {
+    margin-bottom: 50px;
+    padding-top: 20px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(144, 144, 144, 0.15);
+}
+
+.s11-item {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.155);
+    border: 1px solid rgba(60, 60, 60, 0.5);
+}
+
+.s11-item:hover {
+    border: 1px solid rgba(186, 186, 186, 0.5);
+    transition: all 0.5s linear;
+
+}
+
+.s11-item i {
+    background-image: linear-gradient(43deg, #FFCC70 00%, #C840C0 46%, #4158D0 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 700;
+}
+
+/* section 11 ends here */
