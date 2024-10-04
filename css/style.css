@@ -436,3 +436,19 @@ body {
 }
 
 /* section 9 ends here */
+
+/* section 10 starts here */
+
+.s-10 {
+    border: 1px solid rgb(255, 255, 255, 0.4);
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.s10-h2 {
+    background-image: linear-gradient(43deg, #FFCC70 00%, #C840C0 46%, #4158D0 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* section 10 ends here */
