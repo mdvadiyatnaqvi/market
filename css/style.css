@@ -561,3 +561,28 @@ body {
 }
 
 /* section 13 ends here */
+
+/* footer css starts here */
+
+.footer-item {
+    margin: 10px;
+}
+
+#footer-li1 a,
+#footer-li2 a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-li1 :hover,
+#footer-li2 :hover {
+    background-image: linear-gradient(43deg, #51d5df 40%, #4b41dd 46%, #abb5e8 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#footer-li2 a {
+    margin-left: 10px;
+}
+
+/* footer css ends here */
