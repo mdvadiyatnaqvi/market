@@ -481,12 +481,12 @@ body {
     width: 300px;
     height: 300px;
     border-radius: 15px;
-    background-color: rgba(0, 0, 0, 0.155);
+    background-color: rgba(83, 83, 83, 0.25);
     border: 1px solid rgba(60, 60, 60, 0.5);
 }
 
 .s11-item:hover {
-    border: 1px solid rgba(186, 186, 186, 0.5);
+    border: 1px solid rgba(213, 213, 213, 0.5);
     transition: all 0.5s linear;
 
 }
