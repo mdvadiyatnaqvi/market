@@ -272,6 +272,10 @@ body {
     justify-content: space-evenly;
 }
 
+.s5-left {
+    max-width: 600px;
+}
+
 .s5-right {
     border: 1px solid rgb(255, 255, 255, 0.4);
     border-bottom: none;
@@ -345,7 +349,6 @@ body {
 
 @media screen and (max-width: 700px) {
     .s5-p {
-        width: 340px !important;
         margin-left: 15px;
         margin-right: 15px;
         text-align: justify;
