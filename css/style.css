@@ -61,8 +61,13 @@ body {
 
 /* section1 css starts here */
 
+.main-sec1 {
+    border: 1px solid rgb(255, 255, 255, 0.35);
+    border-radius: 20px;
+}
+
 .section1 {
-    background: linear-gradient(110deg, #f5feffa5 20%, #c3e3e9e6 70%, #f5f6f6d5 80%) no-repeat center center/cover;
+    background: linear-gradient(110deg, #f5feffd4 20%, #c3e3e9 70%, #f5f6f6f4 80%) no-repeat center center/cover;
     border-radius: 20px;
     border: 10px solid black;
 }
