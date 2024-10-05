@@ -5,7 +5,7 @@
 }
 
 #nav-bg::before {
-    background: url('../images/backgrounds/main-1.webp') no-repeat center center/cover;
+    background: linear-gradient(110deg, #65f5ffa5 20%, #54545465 70%, #77777795 80%) no-repeat center center/cover;
     content: "";
     position: absolute;
     width: 100%;
