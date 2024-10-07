@@ -260,6 +260,7 @@ body {
 
 .s4-image {
     border-radius: 5px;
+    object-fit: cover;
 }
 
 /* section4 css ends here */
